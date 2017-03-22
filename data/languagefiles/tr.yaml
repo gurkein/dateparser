@@ -6,61 +6,62 @@ skip: ["yaklaşık", "ve"]
 
 monday:
     - Pazartesi
-    - Pzt
+    - Pts
 tuesday:
     - Salı
     - Sal
 wednesday:
     - Çarşamba
-    - Çrs
+    - Çar
 thursday:
     - Perşembe
-    - Prs
+    - Per
 friday:
     - Cuma
     - Cum
 saturday:
     - Cumartesi
-    - Cmt
+    - Cts
 sunday:
     - Pazar
+    - Paz
 
 january:
     - Ocak
-    - Oc
+    - Oca
 february:
     - Şubat
-    - Şu
+    - Şub
 march:
     - Mart
     - Mar
 april:
     - Nisan
-    - Ni
+    - Nis
 may:
     - Mayıs
     - May
 june:
     - Haziran
-    - Ha
+    - Haz
 july:
     - Temmuz
-    - Te
+    - Tem
 august:
     - Ağustos
-    - Ağ
+    - Ağu
 september:
     - Eylül
-    - Ey
+    - Eyl
 october:
     - Ekim
-    - Ek
+    - Eki
 november:
     - Kasım
-    - Ka
+    - Kas
 december:
     - Aralık
-    - Ar
+    - Ara
 
 year:
     - yıl
@@ -71,12 +72,16 @@ week:
     - hafta
 day:
     - gün
+    - gn
 hour:
     - saat
+    - sa
 minute:
     - dakika
+    - dk
 second:
     - saniye
+    - sn
 
 ago:
     - önce
@@ -90,6 +95,7 @@ simplifications:
     - bugün: 0 gün
     - haftaya: 1 hafta sonra
     - yarın: 1 gün sonra
+    - şimdi: 0 saniye
     - geçen (gün|hafta|ay|yıl): 1 \1
     - önümüzdeki (gün|hafta|ay|yıl): 1 \1 sonra
     - gelecek (hafta|ay|yıl): 1 \1 sonra
